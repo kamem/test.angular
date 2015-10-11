@@ -1,0 +1,5 @@
+
+<h2>List View</h2>
+<div class="list-group">
+	<a ui-sref-active="active" class="list-group-item" ng-repeat="e in emps" ui-sref=".detail({empID:e.id})">{{e.name}}</a>
+</div>
