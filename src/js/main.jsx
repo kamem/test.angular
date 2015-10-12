@@ -1,4 +1,4 @@
-var MainCtrl = require("./MainCtrl").MainCtrl;
+import {MainCtrl} from "./MainCtrl";
 
 var app = angular.module('develo', ['ui.router']);
 app.run();
